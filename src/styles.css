@@ -1,0 +1,19 @@
+
+* {
+    background-color: #B3A369; 
+    color: #001F5B;
+    font-family: 'Futura', sans-serif;
+}
+
+body {
+    border: 10px solid #001F5B; /* Navy blue border */
+    padding: 10px; /* Adds space between content and border */
+    margin: 0; /* Removes default margin */
+    box-sizing: border-box; /* Ensures border size is included in element size */
+}
+
+a {
+    color: #FFFFFF; 
+}
+
+

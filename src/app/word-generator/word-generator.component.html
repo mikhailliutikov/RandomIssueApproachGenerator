@@ -1,0 +1,27 @@
+<div class="slot-machine-container" [class.hidden]="!isButtonPressed" >
+    <div class = "sentence">
+        <p>Using </p>
+    </div>
+    <div class="reel1">
+      <div class="word">{{ word1 }}</div>
+    </div>
+    <div class = "sentence">
+        <p> and </p>
+    </div>
+    <div class="reel2">
+      <div class="word">{{ word2 }}</div>
+    </div>
+    <div class = "sentence">
+        <p> to solve </p>
+    </div>
+    <div class="reel3">
+      <div class="word">{{ word3 }}</div>
+    </div>
+    <img src={{imagePath1}} alt="Image 1" class="image1">
+    <img src={{imagePath2}} alt="Image 2" class="image2">
+    <img src={{imagePath3}} alt="Image 3" class="image3">
+</div>
+  <button (click)="generateRandomWords()">Generate</button>
+  
+
+    
